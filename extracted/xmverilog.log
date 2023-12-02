@@ -1,0 +1,931 @@
+xmverilog(64): 21.03-s009: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+TOOL:	xmverilog	21.03-s009: Started on May 05, 2023 at 10:40:09 BST
+ncverilog
+	-sv
+	+access+r
+	+gui
+	-f /opt/cad/designkits/ams/v410/verilog/c35b4/verilogin.inc
+		-v
+		/opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB_3B.v
+		-v
+		/opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIBD_3B.v
+		-v
+		/opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIBD.v
+		-v
+		/opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB.v
+		-v
+		/opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB_V5_3B.v
+		-v
+		/opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB_V5.v
+		-v
+		/opt/cad/designkits/ams/v410/verilog/c35b4/c35_IOLIB_3B.v
+		-v
+		/opt/cad/designkits/ams/v410/verilog/c35b4/c35_IOLIBC_3B.v
+		-v
+		/opt/cad/designkits/ams/v410/verilog/c35b4/c35_IOLIBCV5_3B.v
+		-v
+		/opt/cad/designkits/ams/v410/verilog/c35b4/c35_IOLIB.v
+		-v
+		/opt/cad/designkits/ams/v410/verilog/c35b4/c35_IOLIBV5.v
+		-v
+		/opt/cad/designkits/ams/v410/verilog/c35b4/FILLANT.v
+		-v
+		/opt/cad/designkits/ams/v410/verilog/udp.v
+	system.sv
+	computer.v
+	led_display.sv
+	+define+sdf_file
+xmverilog: *W,NCEXDEP: Executable (ncverilog) is deprecated. Use (xmverilog) instead.
+DEFINE SPIRALS_4M $AMS_DIR/cds/HK_C35/SPIRALS_4M
+|
+xmverilog: *W,DLCLAP (/home/yl7m22/cds.lib,58): cds.lib Same file has different definitions for library 'library SPIRALS_4M from /home/yl7m22/cds.lib line 58, redefines
+    library SPIRALS_4M from same file line 46 defined earlier.' (continuing with last specified path).
+DEFINE TECH_C35B4   $AMS_DIR/cds/HK_C35/TECH_C35B4
+|
+xmverilog: *W,DLCLAP (/home/yl7m22/cds.lib,59): cds.lib Same file has different definitions for library 'library TECH_C35B4 from /home/yl7m22/cds.lib line 59, redefines
+    library TECH_C35B4 from same file line 36 defined earlier.' (continuing with last specified path).
+DEFINE SPIRALS_4M $AMS_DIR/cds/HK_C35/SPIRALS_4M
+|
+xmverilog: *W,DLCLAP (/home/yl7m22/cds.lib,58): cds.lib Same file has different definitions for library 'library SPIRALS_4M from /home/yl7m22/cds.lib line 58, redefines
+    library SPIRALS_4M from same file line 46 defined earlier.' (continuing with last specified path).
+DEFINE TECH_C35B4   $AMS_DIR/cds/HK_C35/TECH_C35B4
+|
+xmverilog: *W,DLCLAP (/home/yl7m22/cds.lib,59): cds.lib Same file has different definitions for library 'library TECH_C35B4 from /home/yl7m22/cds.lib line 59, redefines
+    library TECH_C35B4 from same file line 36 defined earlier.' (continuing with last specified path).
+DEFINE SPIRALS_4M $AMS_DIR/cds/HK_C35/SPIRALS_4M
+|
+xmverilog: *W,DLCLAP (/home/yl7m22/cds.lib,58): cds.lib Same file has different definitions for library 'library SPIRALS_4M from /home/yl7m22/cds.lib line 58, redefines
+    library SPIRALS_4M from same file line 46 defined earlier.' (continuing with last specified path).
+DEFINE TECH_C35B4   $AMS_DIR/cds/HK_C35/TECH_C35B4
+|
+xmverilog: *W,DLCLAP (/home/yl7m22/cds.lib,59): cds.lib Same file has different definitions for library 'library TECH_C35B4 from /home/yl7m22/cds.lib line 59, redefines
+    library TECH_C35B4 from same file line 36 defined earlier.' (continuing with last specified path).
+DEFINE SPIRALS_4M $AMS_DIR/cds/HK_C35/SPIRALS_4M
+|
+xmverilog: *W,DLCLAP (/home/yl7m22/cds.lib,58): cds.lib Same file has different definitions for library 'library SPIRALS_4M from /home/yl7m22/cds.lib line 58, redefines
+    library SPIRALS_4M from same file line 46 defined earlier.' (continuing with last specified path).
+DEFINE TECH_C35B4   $AMS_DIR/cds/HK_C35/TECH_C35B4
+|
+xmverilog: *W,DLCLAP (/home/yl7m22/cds.lib,59): cds.lib Same file has different definitions for library 'library TECH_C35B4 from /home/yl7m22/cds.lib line 59, redefines
+    library TECH_C35B4 from same file line 36 defined earlier.' (continuing with last specified path).
+DEFINE SPIRALS_4M $AMS_DIR/cds/HK_C35/SPIRALS_4M
+|
+xmverilog: *W,DLCLAP (/home/yl7m22/cds.lib,58): cds.lib Same file has different definitions for library 'library SPIRALS_4M from /home/yl7m22/cds.lib line 58, redefines
+    library SPIRALS_4M from same file line 46 defined earlier.' (continuing with last specified path).
+DEFINE TECH_C35B4   $AMS_DIR/cds/HK_C35/TECH_C35B4
+|
+xmverilog: *W,DLCLAP (/home/yl7m22/cds.lib,59): cds.lib Same file has different definitions for library 'library TECH_C35B4 from /home/yl7m22/cds.lib line 59, redefines
+    library TECH_C35B4 from same file line 36 defined earlier.' (continuing with last specified path).
+DEFINE SPIRALS_4M $AMS_DIR/cds/HK_C35/SPIRALS_4M
+|
+xmvlog: *W,DLCLAP (/home/yl7m22/cds.lib,58): cds.lib Same file has different definitions for library 'library SPIRALS_4M from /home/yl7m22/cds.lib line 58, redefines
+    library SPIRALS_4M from same file line 46 defined earlier.' (continuing with last specified path).
+DEFINE TECH_C35B4   $AMS_DIR/cds/HK_C35/TECH_C35B4
+|
+xmvlog: *W,DLCLAP (/home/yl7m22/cds.lib,59): cds.lib Same file has different definitions for library 'library TECH_C35B4 from /home/yl7m22/cds.lib line 59, redefines
+    library TECH_C35B4 from same file line 36 defined earlier.' (continuing with last specified path).
+file: system.sv
+	module worklib.system:sv
+		errors: 0, warnings: 0
+file: computer.v
+	module worklib.ahb_switches_DW01_inc_0:v
+		errors: 0, warnings: 0
+	module worklib.ahb_switches_DW01_inc_1:v
+		errors: 0, warnings: 0
+	module worklib.ahb_switches_test_1:v
+		errors: 0, warnings: 0
+	module worklib.ahb_debouncer_DW01_inc_0:v
+		errors: 0, warnings: 0
+	module worklib.ahb_debouncer_DW01_inc_1:v
+		errors: 0, warnings: 0
+	module worklib.ahb_debouncer_test_1:v
+		errors: 0, warnings: 0
+	module worklib.ahb_interconnect_test_1:v
+		errors: 0, warnings: 0
+	module worklib.ahb_ram_test_1:v
+		errors: 0, warnings: 0
+	module worklib.ahb_out_test_1:v
+		errors: 0, warnings: 0
+	module worklib.ahb_rom_test_1:v
+		errors: 0, warnings: 0
+	module worklib.cortexm0ds_logic_DW01_inc_0:v
+		errors: 0, warnings: 0
+	module worklib.cortexm0ds_logic_DW01_inc_1:v
+		errors: 0, warnings: 0
+	module worklib.cortexm0ds_logic_DW01_dec_1:v
+		errors: 0, warnings: 0
+	module worklib.cortexm0ds_logic_DW01_add_1:v
+		errors: 0, warnings: 0
+	module worklib.cortexm0ds_logic_DW01_add_0:v
+		errors: 0, warnings: 0
+	module worklib.cortexm0ds_logic_test_1:v
+		errors: 0, warnings: 0
+	module worklib.CORTEXM0DS_test_1:v
+		errors: 0, warnings: 0
+	module worklib.arm_soc_test_1:v
+		errors: 0, warnings: 0
+	module worklib.comp_core_test_1:v
+		errors: 0, warnings: 0
+	module worklib.computer:v
+		errors: 0, warnings: 0
+file: led_display.sv
+	module worklib.led_display:sv
+		errors: 0, warnings: 0
+file: /opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB_3B.v
+file: /opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIBD_3B.v
+file: /opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIBD.v
+	module c35_CORELIBD.LOGIC0:v
+		errors: 0, warnings: 0
+	module c35_CORELIBD.LOGIC1:v
+		errors: 0, warnings: 0
+file: /opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB.v
+	module c35_CORELIB.ADD22:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.ADD32:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.AOI210:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.AOI211:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.AOI2110:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.AOI2111:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.AOI2112:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.AOI212:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.AOI220:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.AOI221:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.AOI222:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.AOI310:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.AOI311:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.AOI312:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.BUF12:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.BUF15:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.BUF2:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.BUF6:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.BUF8:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.CLKBU12:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.CLKBU15:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.CLKBU2:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.CLKBU4:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.CLKBU6:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.CLKBU8:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.CLKIN10:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.CLKIN12:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.CLKIN15:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.CLKIN2:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.CLKIN3:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.CLKIN4:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.CLKIN6:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.CLKIN8:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.DFC1:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.DFSC1:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.DFSC3:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.DFSE1:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.DFSEC1:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.DFSEC3:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.DFSEP1:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.DFSEP3:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.DFSP1:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.DFSP3:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.IMUX23:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.IMUX24:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.INV0:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.INV1:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.INV10:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.INV12:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.INV15:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.INV2:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.INV3:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.INV4:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.INV6:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.INV8:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.MAJ31:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.NAND20:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.NAND21:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.NAND22:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.NAND23:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.NAND24:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.NAND26:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.NAND28:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.NAND30:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.NAND31:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.NAND33:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.NAND34:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.NAND40:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.NAND41:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.NAND42:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.NAND43:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.NOR20:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.NOR21:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.NOR22:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.NOR23:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.NOR24:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.NOR30:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.NOR31:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.NOR32:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.NOR33:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.NOR40:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.NOR41:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.NOR42:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.OAI210:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.OAI211:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.OAI2110:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.OAI2111:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.OAI2112:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.OAI212:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.OAI220:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.OAI221:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.OAI222:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.OAI310:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.OAI311:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.OAI312:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.TFSEC1:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.TFSEC3:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.XNR20:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.XNR21:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.XNR22:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.XOR20:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.XOR21:v
+		errors: 0, warnings: 0
+	module c35_CORELIB.XOR22:v
+		errors: 0, warnings: 0
+file: /opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB_V5_3B.v
+file: /opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB_V5.v
+file: /opt/cad/designkits/ams/v410/verilog/c35b4/c35_IOLIB_3B.v
+file: /opt/cad/designkits/ams/v410/verilog/c35b4/c35_IOLIBC_3B.v
+file: /opt/cad/designkits/ams/v410/verilog/c35b4/c35_IOLIBCV5_3B.v
+file: /opt/cad/designkits/ams/v410/verilog/c35b4/c35_IOLIB.v
+	module c35_IOLIB.BU8P:v
+		errors: 0, warnings: 0
+	module c35_IOLIB.ICCK2P:v
+		errors: 0, warnings: 0
+	module c35_IOLIB.ICP:v
+		errors: 0, warnings: 0
+	module c35_IOLIB.ICUP:v
+		errors: 0, warnings: 0
+file: /opt/cad/designkits/ams/v410/verilog/c35b4/c35_IOLIBV5.v
+file: /opt/cad/designkits/ams/v410/verilog/c35b4/FILLANT.v
+file: /opt/cad/designkits/ams/v410/verilog/udp.v
+	primitive udp.U_ADDR2_S:v
+		errors: 0, warnings: 0
+	primitive udp.U_ADDR2_C:v
+		errors: 0, warnings: 0
+	primitive udp.U_FD_P_RB_NO:v
+		errors: 0, warnings: 0
+	primitive udp.U_FD_P_SB_NO:v
+		errors: 0, warnings: 0
+	primitive udp.U_MUX_2_1:v
+		errors: 0, warnings: 0
+	primitive udp.U_MUX_2_1_INV:v
+		errors: 0, warnings: 0
+	primitive udp.U_dfse_Q:v
+		errors: 0, warnings: 0
+	primitive udp.U_dfsec_Q:v
+		errors: 0, warnings: 0
+	primitive udp.U_dfsep_Q:v
+		errors: 0, warnings: 0
+	primitive udp.U_tfsec_Q:v
+		errors: 0, warnings: 0
+xmvlog: *W,LIBNOU: Library "/opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB_3B.v" given but not used.
+xmvlog: *W,LIBNOU: Library "/opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIBD_3B.v" given but not used.
+xmvlog: *W,LIBNOU: Library "/opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB_V5_3B.v" given but not used.
+xmvlog: *W,LIBNOU: Library "/opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB_V5.v" given but not used.
+xmvlog: *W,LIBNOU: Library "/opt/cad/designkits/ams/v410/verilog/c35b4/c35_IOLIB_3B.v" given but not used.
+xmvlog: *W,LIBNOU: Library "/opt/cad/designkits/ams/v410/verilog/c35b4/c35_IOLIBC_3B.v" given but not used.
+xmvlog: *W,LIBNOU: Library "/opt/cad/designkits/ams/v410/verilog/c35b4/c35_IOLIBCV5_3B.v" given but not used.
+xmvlog: *W,LIBNOU: Library "/opt/cad/designkits/ams/v410/verilog/c35b4/c35_IOLIBV5.v" given but not used.
+xmvlog: *W,LIBNOU: Library "/opt/cad/designkits/ams/v410/verilog/c35b4/FILLANT.v" given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 11
+DEFINE SPIRALS_4M $AMS_DIR/cds/HK_C35/SPIRALS_4M
+|
+xmverilog: *W,DLCLAP (/home/yl7m22/cds.lib,58): cds.lib Same file has different definitions for library 'library SPIRALS_4M from /home/yl7m22/cds.lib line 58, redefines
+    library SPIRALS_4M from same file line 46 defined earlier.' (continuing with last specified path).
+DEFINE TECH_C35B4   $AMS_DIR/cds/HK_C35/TECH_C35B4
+|
+xmverilog: *W,DLCLAP (/home/yl7m22/cds.lib,59): cds.lib Same file has different definitions for library 'library TECH_C35B4 from /home/yl7m22/cds.lib line 59, redefines
+    library TECH_C35B4 from same file line 36 defined earlier.' (continuing with last specified path).
+DEFINE SPIRALS_4M $AMS_DIR/cds/HK_C35/SPIRALS_4M
+|
+xmverilog: *W,DLCLAP (/home/yl7m22/cds.lib,58): cds.lib Same file has different definitions for library 'library SPIRALS_4M from /home/yl7m22/cds.lib line 58, redefines
+    library SPIRALS_4M from same file line 46 defined earlier.' (continuing with last specified path).
+DEFINE TECH_C35B4   $AMS_DIR/cds/HK_C35/TECH_C35B4
+|
+xmverilog: *W,DLCLAP (/home/yl7m22/cds.lib,59): cds.lib Same file has different definitions for library 'library TECH_C35B4 from /home/yl7m22/cds.lib line 59, redefines
+    library TECH_C35B4 from same file line 36 defined earlier.' (continuing with last specified path).
+DEFINE SPIRALS_4M $AMS_DIR/cds/HK_C35/SPIRALS_4M
+|
+xmelab: *W,DLCLAP (/home/yl7m22/cds.lib,58): cds.lib Same file has different definitions for library 'library SPIRALS_4M from /home/yl7m22/cds.lib line 58, redefines
+    library SPIRALS_4M from same file line 46 defined earlier.' (continuing with last specified path).
+DEFINE TECH_C35B4   $AMS_DIR/cds/HK_C35/TECH_C35B4
+|
+xmelab: *W,DLCLAP (/home/yl7m22/cds.lib,59): cds.lib Same file has different definitions for library 'library TECH_C35B4 from /home/yl7m22/cds.lib line 59, redefines
+    library TECH_C35B4 from same file line 36 defined earlier.' (continuing with last specified path).
+		Caching library 'c35_CORELIB' ....... Done
+		Caching library 'c35_CORELIBD' ....... Done
+		Caching library 'c35_IOLIB' ....... Done
+		Caching library 'worklib' ....... Done
+		Caching library 'udp' ....... Done
+	Elaborating the design hierarchy:
+   DFC1 RESET_SYNC_FF1 (.RN(SYNC_IN_nReset),
+                     |
+xmelab: *W,CUVWSP (./computer.v,99006|21): 1 output port was not connected:
+xmelab: (/opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB.v,1364): QN
+
+   DFC1 RESET_SYNC_FF2 (.RN(SYNC_IN_nReset),
+                     |
+xmelab: *W,CUVWSP (./computer.v,99010|21): 1 output port was not connected:
+xmelab: (/opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB.v,1364): QN
+
+   arm_soc_test_1 soc_1 (.HCLK(Clock),
+                      |
+xmelab: *W,CUVWSP (./computer.v,97636|22): 1 output port was not connected:
+xmelab: (./computer.v,95672): LOCKUP
+
+   CORTEXM0DS_test_1 m0_1 (.HCLK(CORE_Clock__L8_N61),
+                        |
+xmelab: *W,CUVWSP (./computer.v,96348|24): 4 output ports were not connected:
+xmelab: (./computer.v,94088): HMASTLOCK
+xmelab: (./computer.v,94099): TXEV
+xmelab: (./computer.v,94102): SYSRESETREQ
+xmelab: (./computer.v,94103): SLEEPING
+
+   cortexm0ds_logic_test_1 u_logic (.hclk(HCLK),
+                                 |
+xmelab: *W,CUVWSP (./computer.v,94948|33): 4 output ports were not connected:
+xmelab: (./computer.v,60648): hmastlock_o
+xmelab: (./computer.v,60682): vis_tbit_o
+xmelab: (./computer.v,60684): vis_control_o
+xmelab: (./computer.v,60685): vis_primask_o
+
+   cortexm0ds_logic_DW01_add_1 add_2085 (.A({ hburst_o[2],
+                                      |
+xmelab: *W,CUVWSP (./computer.v,71422|38): 1 output port was not connected:
+xmelab: (./computer.v,60060): CO
+
+   cortexm0ds_logic_DW01_add_0 add_2076 (.A({ Fti3z4_33_,
+                                      |
+xmelab: *W,CUVWSP (./computer.v,71525|38): 1 output port was not connected:
+xmelab: (./computer.v,60244): CO
+
+   DFSC1 Gzb3z4_reg (.SE(p7),
+                  |
+xmelab: *W,CUVWSP (./computer.v,71596|18): 1 output port was not connected:
+xmelab: (/opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB.v,2114): QN
+
+   DFSC1 Yvb3z4_reg (.SE(p3),
+                  |
+xmelab: *W,CUVWSP (./computer.v,71602|18): 1 output port was not connected:
+xmelab: (/opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB.v,2114): QN
+
+   DFSC1 W5c3z4_reg (.SE(p3),
+                  |
+xmelab: *W,CUVWSP (./computer.v,71608|18): 1 output port was not connected:
+xmelab: (/opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB.v,2114): QN
+
+   DFSC1 Rnb3z4_reg (.SE(FE_OFN78_n10),
+                  |
+xmelab: *W,CUVWSP (./computer.v,71614|18): 1 output port was not connected:
+xmelab: (/opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB.v,2114): QN
+
+   DFSC1 Qsb3z4_reg (.SE(p3),
+                  |
+xmelab: *W,CUVWSP (./computer.v,71620|18): 1 output port was not connected:
+xmelab: (/opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB.v,2114): QN
+
+   DFSC1 O2c3z4_reg (.SE(p7),
+                  |
+xmelab: *W,CUVWSP (./computer.v,71626|18): 1 output port was not connected:
+xmelab: (/opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB.v,2114): QN
+
+   DFSC1 E9c3z4_reg (.SE(p6),
+                  |
+xmelab: *W,CUVWSP (./computer.v,71632|18): 1 output port was not connected:
+xmelab: (/opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB.v,2114): QN
+
+   DFSC1 Zqb3z4_reg (.SE(p3),
+                  |
+xmelab: *W,CUVWSP (./computer.v,71638|18): 1 output port was not connected:
+xmelab: (/opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB.v,2114): QN
+
+   DFSC1 Q0f3z4_reg (.SE(p2),
+                  |
+xmelab: *W,CUVWSP (./computer.v,71644|18): 1 output port was not connected:
+xmelab: (/opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB.v,2114): QN
+
+   DFSC1 Q4h3z4_reg (.SE(p3),
+                  |
+xmelab: *W,CUVWSP (./computer.v,71650|18): 1 output port was not connected:
+xmelab: (/opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB.v,2114): QN
+
+   DFSC1 C7f3z4_reg (.SE(p7),
+                  |
+xmelab: *W,CUVWSP (./computer.v,71656|18): 1 output port was not connected:
+xmelab: (/opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB.v,2114): QN
+
+   DFSC1 I6h3z4_reg (.SE(p7),
+                  |
+xmelab: *W,CUVWSP (./computer.v,71662|18): 1 output port was not connected:
+xmelab: (/opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB.v,2114): QN
+
+   DFSC1 Jje3z4_reg (.SE(p2),
+                  |
+xmelab: *W,CUVWSP (./computer.v,71668|18): 1 output port was not connected:
+xmelab: (/opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB.v,2114): QN
+
+   DFSC1 Etq2z4_reg (.SE(p7),
+                  |
+xmelab: *W,CUVWSP (./computer.v,71674|18): 1 output port was not connected:
+xmelab: (/opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB.v,2114): QN
+
+   DFSC1 Qnn2z4_reg (.SE(p6),
+                  |
+xmelab: *W,CUVWSP (./computer.v,71680|18): 1 output port was not connected:
+xmelab: (/opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB.v,2114): QN
+
+   DFSC1 W8r2z4_reg (.SE(p3),
+                  |
+xmelab: *W,CUVWSP (./computer.v,71686|18): 1 output port was not connected:
+xmelab: (/opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB.v,2114): QN
+
+   DFSC1 Mvi2z4_reg (.SE(p4),
+                  |
+xmelab: *W,CUVWSP (./computer.v,71692|18): 1 output port was not connected:
+xmelab: (/opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB.v,2114): QN
+
+   DFSEC1 Aii3z4_reg (.SE(p5),
+                   |
+xmelab: *W,CUVWSP (./computer.v,76296|19): 1 output port was not connected:
+xmelab: (/opt/cad/designkits/ams/v410/verilog/c35b4/c35_CORELIB.v,2439): QN
+
+   ahb_rom_test_1 rom_1 (.HSEL(HSEL_ROM),
+                      |
+xmelab: *W,CUVWSP (./computer.v,96604|22): 1 output port was not connected:
+xmelab: (./computer.v,33625): HREADYOUT
+
+   ahb_ram_test_1 ram_1 (.HSEL(HSEL_RAM),
+                      |
+xmelab: *W,CUVWSP (./computer.v,96669|22): 1 output port was not connected:
+xmelab: (./computer.v,4558): HREADYOUT
+
+   ahb_switches_test_1 switches_1 (.HCLK(CORE_Clock__L8_N14),
+                                |
+xmelab: *W,CUVWSP (./computer.v,96910|32): 1 output port was not connected:
+xmelab: (./computer.v,300): HREADYOUT
+
+   ahb_out_test_1 out_1 (.HCLK(CORE_Clock__L8_N90),
+                      |
+xmelab: *W,CUVWSP (./computer.v,97027|22): 1 output port was not connected:
+xmelab: (./computer.v,32636): HREADYOUT
+
+xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+xmelab: *W,CUSNOF: No SDF file specified in SDF System Task..
+    $sdf_annotate( `STRINGIFY(`sdf_file), COMPUTER );
+                |
+xmelab: *W,CUSSTI (./system.sv,86|16): This SDF System Task will be Ignored..
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+DEFINE SPIRALS_4M $AMS_DIR/cds/HK_C35/SPIRALS_4M
+|
+xmvlog_cg: *W,DLCLAP (/home/yl7m22/cds.lib,58): cds.lib Same file has different definitions for library 'library SPIRALS_4M from /home/yl7m22/cds.lib line 58, redefines
+    library SPIRALS_4M from same file line 46 defined earlier.' (continuing with last specified path).
+DEFINE TECH_C35B4   $AMS_DIR/cds/HK_C35/TECH_C35B4
+|
+xmvlog_cg: *W,DLCLAP (/home/yl7m22/cds.lib,59): cds.lib Same file has different definitions for library 'library TECH_C35B4 from /home/yl7m22/cds.lib line 59, redefines
+    library TECH_C35B4 from same file line 36 defined earlier.' (continuing with last specified path).
+		worklib.led_display:sv <0x525851fb>
+			streams:   1, words:   313
+		worklib.ahb_debouncer_test_1:v <0x6767fcf8>
+			streams:   0, words:     0
+		worklib.ahb_out_test_1:v <0x5178a45f>
+			streams:   0, words:     0
+		worklib.ahb_switches_test_1:v <0x53ed6df3>
+			streams:   0, words:     0
+		worklib.cortexm0ds_logic_test_1:v <0x51d6eb8a>
+			streams:   0, words:     0
+		worklib.CORTEXM0DS_test_1:v <0x3c54d3b7>
+			streams:   0, words:     0
+		worklib.arm_soc_test_1:v <0x2f52fa25>
+			streams:   0, words:     0
+		worklib.system:sv <0x4eca7258>
+			streams:  24, words: 21057
+		c35_CORELIB.TFSEC1:v <0x5701ecb5>
+			streams:   0, words:     0
+		c35_CORELIB.TFSEC3:v <0x671a81e2>
+			streams:   0, words:     0
+		c35_CORELIB.DFSE1:v <0x2af86b69>
+			streams:   0, words:     0
+		c35_CORELIB.DFSC3:v <0x1070690a>
+			streams:   0, words:     0
+		c35_CORELIB.DFSP3:v <0x67043f4f>
+			streams:   0, words:     0
+		c35_CORELIB.DFSP1:v <0x5718bb92>
+			streams:   0, words:     0
+		c35_CORELIB.DFSEC3:v <0x1c45e64c>
+			streams:   0, words:     0
+		c35_CORELIB.DFSEC1:v <0x0f7f84af>
+			streams:   0, words:     0
+		c35_CORELIB.DFSEP1:v <0x685c0a78>
+			streams:   0, words:     0
+		c35_CORELIB.DFSC1:v <0x206cedd7>
+			streams:   0, words:     0
+		c35_CORELIB.DFSEP3:v <0x7b66689b>
+			streams:   0, words:     0
+		c35_CORELIB.DFC1:v <0x59006b36>
+			streams:   0, words:     0
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                   Instances  Unique
+		Modules:               17338     131
+		UDPs:                   3656      10
+		Primitives:            33651       9
+		Timing outputs:        20652      73
+		Registers:              3187      29
+		Scalar wires:          26650       -
+		Expanded wires:            8       1
+		Named events:              5       5
+		Always blocks:             8       8
+		Initial blocks:            9       9
+		Cont. assignments:         6      54
+		Timing checks:         58864      16
+		Simulation timescale:    1ps
+	Writing initial simulation snapshot: worklib.system:sv
+DEFINE SPIRALS_4M $AMS_DIR/cds/HK_C35/SPIRALS_4M
+|
+xmsim: *W,DLCLAP (/home/yl7m22/cds.lib,58): cds.lib Same file has different definitions for library 'library SPIRALS_4M from /home/yl7m22/cds.lib line 58, redefines
+    library SPIRALS_4M from same file line 46 defined earlier.' (continuing with last specified path).
+DEFINE TECH_C35B4   $AMS_DIR/cds/HK_C35/TECH_C35B4
+|
+xmsim: *W,DLCLAP (/home/yl7m22/cds.lib,59): cds.lib Same file has different definitions for library 'library TECH_C35B4 from /home/yl7m22/cds.lib line 59, redefines
+    library TECH_C35B4 from same file line 36 defined earlier.' (continuing with last specified path).
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /eda/cadence/xcelium/tools/xcelium/files/xmsimrc
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm system.Button3 system.Clock system.Crank system.DP system.DnC system.Fork system.Mode system.SCLK system.SDI system.SDIN system.SDO system.ScanEnable system.SegA system.SegB system.SegC system.SegD system.SegE system.SegF system.SegG system.Test system.Trip system.mode_index system.nButton3 system.nCS system.nCrank system.nDigit system.nFork system.nMode system.nReset system.nTrip system.press_mode_button system.press_third_button system.press_trip_button system.trigger_crank_sensor system.trigger_fork_sensor
+Created probe 1
+xcelium> run
+COMPILATION OK
+CLOCK PERIOD IS 30517.6ns
+DISPLAY IS LED ONLY
+This Bicycle Computer supports 4 modes:
+  Mode 0: Distance
+  Mode 1: Duration
+  Mode 2: Speed
+  Mode 3: Cadence
+ (the computer will enter mode 0 on reset)
+           Mode 0
+    1.00 s
+                         Fork
+                   Crank
+           Mode 1
+                         Fork
+    2.00 s
+                   Crank
+                         Fork
+           Mode 2
+                         Fork
+                   Crank
+    3.00 s
+                         Fork
+                   Crank
+                         Fork
+           Mode 3
+                         Fork
+    4.00 s
+                   Crank
+                         Fork
+                         Fork
+                   Crank
+           Mode 0
+                         Fork
+    5.00 s
+                   Crank
+                         Fork
+           Mode 1
+                         Fork
+                   Crank
+    6.00 s
+                         Fork
+                   Crank
+                         Fork
+           Mode 2
+                         Fork
+    7.00 s
+                   Crank
+                         Fork
+                   Crank
+           Mode 3
+                         Fork
+    8.00 s
+                         Fork
+                   Crank
+                         Fork
+           Mode 0
+                         Fork
+                   Crank
+    9.00 s
+                         Fork
+                   Crank
+                         Fork
+           Mode 1
+                         Fork
+   10.00 s
+                   Crank
+                         Fork
+                   Crank
+           Mode 2
+                         Fork
+   11.00 s
+                         Fork
+                   Crank
+                         Fork
+           Mode 3
+                   Crank
+                         Fork
+   12.00 s
+                         Fork
+                   Crank
+           Mode 0
+                         Fork
+   13.00 s
+                   Crank
+                         Fork
+                         Fork
+                   Crank
+           Mode 1
+                         Fork
+   14.00 s
+                         Fork
+                   Crank
+                         Fork
+           Mode 2
+                   Crank
+                         Fork
+   15.00 s
+                         Fork
+                   Crank
+           Mode 3
+                         Fork
+   16.00 s
+                   Crank
+                         Fork
+                         Fork
+                   Crank
+           Mode 0
+                         Fork
+   17.00 s
+                   Crank
+                         Fork
+           Mode 1
+                         Fork
+                   Crank
+                         Fork
+   18.00 s
+                         Fork
+                   Crank
+           Mode 2
+                         Fork
+   19.00 s
+                   Crank
+                         Fork
+                         Fork
+                   Crank
+           Mode 3
+                         Fork
+   20.00 s
+                   Crank
+                         Fork
+           Mode 0
+                         Fork
+                   Crank
+   21.00 s
+                         Fork
+                   Crank
+                         Fork
+           Mode 1
+                         Fork
+   22.00 s
+                   Crank
+                         Fork
+                   Crank
+           Mode 2
+                         Fork
+                         Fork
+   23.00 s
+                   Crank
+                         Fork
+           Mode 3
+                         Fork
+                   Crank
+   24.00 s
+                         Fork
+                   Crank
+                         Fork
+           Mode 0
+                         Fork
+   25.00 s
+                   Crank
+                         Fork
+                   Crank
+           Mode 1
+                         Fork
+   26.00 s
+                         Fork
+                   Crank
+                         Fork
+           Mode 2
+                   Crank
+                         Fork
+   27.00 s
+                         Fork
+                   Crank
+                         Fork
+           Mode 3
+                         Fork
+   28.00 s
+                   Crank
+                         Fork
+                   Crank
+           Mode 0
+                         Fork
+   29.00 s
+                         Fork
+                   Crank
+                         Fork
+           Mode 1
+                   Crank
+                         Fork
+   30.00 s
+                         Fork
+                   Crank
+           Mode 2
+                         Fork
+   31.00 s
+                   Crank
+                         Fork
+                         Fork
+                   Crank
+           Mode 3
+                         Fork
+   32.00 s
+                   Crank
+                         Fork
+                         Fork
+           Mode 0
+                   Crank
+                         Fork
+   33.00 s
+                         Fork
+                   Crank
+           Mode 1
+                         Fork
+   34.00 s
+                   Crank
+                         Fork
+                         Fork
+                   Crank
+           Mode 2
+                         Fork
+   35.00 s
+                   Crank
+                         Fork
+           Mode 3
+                         Fork
+                   Crank
+   36.00 s
+                         Fork
+                   Crank
+                         Fork
+           Mode 0
+                         Fork
+   37.00 s
+                   Crank
+                         Fork
+                         Fork
+                   Crank
+           Mode 1
+                         Fork
+   38.00 s
+                   Crank
+                         Fork
+           Mode 2
+                         Fork
+                   Crank
+   39.00 s
+                         Fork
+                   Crank
+                         Fork
+           Mode 3
+                         Fork
+   40.00 s
+                   Crank
+                         Fork
+                   Crank
+           Mode 0
+                         Fork
+Simulation interrupted at 40912962677100 PS + 8
+xcelium> ^C
+xcelium> exit
+TOOL:	xmverilog	21.03-s009: Exiting on May 05, 2023 at 10:49:16 BST  (total: 00:09:07)

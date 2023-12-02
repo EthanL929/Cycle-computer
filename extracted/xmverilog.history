@@ -1,0 +1,1 @@
+s1(05May2023:10:40:09):  ncverilog -sv +access+r +gui -f /opt/cad/designkits/ams/v410/verilog/c35b4/verilogin.inc system.sv computer.v led_display.sv +define+sdf_file 
