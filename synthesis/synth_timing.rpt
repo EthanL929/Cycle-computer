@@ -1,0 +1,50 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : computer
+Version: K-2015.06-SP5
+Date   : Mon Apr 24 19:41:54 2023
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: WORST-MIL   Library: c35_CORELIB_WC
+Wire Load Model Mode: enclosed
+
+  Startpoint: ScanEnable (input port clocked by master_clock)
+  Endpoint: CRANK_SYNC_FF1
+            (rising edge-triggered flip-flop clocked by master_clock)
+  Path Group: master_clock
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  computer           30k                   c35_CORELIB_WC
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock master_clock (rise edge)           0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                    12.00      12.00 f
+  ScanEnable (in)                          0.13      12.13 f
+  PAD_ScanEnable/Y (ICP)                 761.00 #   773.14 f
+  CRANK_SYNC_FF1/SE (DFSP1)                0.00 #   773.14 f
+  data arrival time                                 773.14
+
+  clock master_clock (rise edge)       30517.60   30517.60
+  clock network delay (ideal)              2.50   30520.10
+  clock uncertainty                       -1.00   30519.10
+  CRANK_SYNC_FF1/C (DFSP1)                 0.00   30519.10 r
+  library setup time                      -0.97   30518.13
+  data required time                              30518.13
+  -----------------------------------------------------------
+  data required time                              30518.13
+  data arrival time                                -773.14
+  -----------------------------------------------------------
+  slack (MET)                                     29744.99
+
+
+1
